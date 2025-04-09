@@ -8,3 +8,6 @@
     ### Tài khoản Admin
     - Username: 0123456789
     - Password: 123456
+
+
+    ### Lưu ý: Chỉ được làm việc trên branch của mình, sau đó tạo pull request rồi nhắn tin cho tui.
