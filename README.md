@@ -1,21 +1,10 @@
-<!-- author: hgbaodev -->
-# Đồ án môn lập trình web và ứng dụng
-### Tài khoản Admin
+    ___________Đồ án môn lập trình web và ứng dụng 2___________
 
-- Username: hgbaodev
-- Password: 123456
-### Hình ảnh giao diện
-![Alt text](./assets/img/screen.jpeg)
-<h4 align="center">Trang chủ</h4>
-
-![Alt text](./assets/img/img-github/admin-product.jpeg)
-<h4 align="center">Chi tiết sản phẩm</h4>
-
-![Alt text](./assets/img/img-github/giohang.jpeg)
-<h4 align="center">Giỏ hàng</h4>
-
-![Alt text](./assets/img/img-github/admin.jpeg)
-<h4 align="center">Trang admin</h4>
-
-![Alt text](./assets/img/img-github/admin-product.jpeg)
-<h4 align="center">Quản lý sản phẩm</h4>
+    (mọi người trong nhóm điền vào trong này, nếu không điền thì xem như không tham gia làm đồ án)
+    ### DCT123C6_Nhóm 13
+        Võ Lê Chí Dũng - 3123411051
+    ---> 
+    
+    ### Tài khoản Admin
+    - Username: 0123456789
+    - Password: 123456
