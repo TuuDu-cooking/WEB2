@@ -1,3 +1,14 @@
+<?php
+//include 'connect.php';
+
+//$sql = "SELECT * FROM monan";
+//$result = $conn->query($sql);
+
+//while ($row = $result->fetch_assoc()) {
+//    echo "Tên món: " . $row['ten_monan'] . " - Giá: " . $row['gia'] . "<br>";
+//}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,7 +160,7 @@
                     </div>
                     <div class="admin-control-right">
                         <button class="btn-control-large" id="btn-cancel-product" onclick="cancelSearchProduct()"><i class="fa-light fa-rotate-right"></i> Làm mới</button>
-                        <button class="btn-control-large" id="btn-add-product"><i class="fa-light fa-plus"></i> Thêm món mới</button>                  
+                        <button class="btn-control-large" id="btn-add-product"><i class="fa-light fa-plus"></i> Thêm món mới</button>
                     </div>
                 </div>
                 <div id="show-product"></div>
@@ -184,9 +195,9 @@
                                 <label for="time-end">Đến</label>
                                 <input type="date" class="form-control-date" id="time-end-user" onchange="showUser()">
                             </div>
-                        </form>      
-                        <button class="btn-reset-order" onclick="cancelSearchUser()"><i class="fa-light fa-arrow-rotate-right"></i></button>     
-                        <button id="btn-add-user" class="btn-control-large" onclick="openCreateAccount()"><i class="fa-light fa-plus"></i> <span>Thêm khách hàng</span></button>          
+                        </form>
+                        <button class="btn-reset-order" onclick="cancelSearchUser()"><i class="fa-light fa-arrow-rotate-right"></i></button>
+                        <button id="btn-add-user" class="btn-control-large" onclick="openCreateAccount()"><i class="fa-light fa-plus"></i> <span>Thêm khách hàng</span></button>
                     </div>
                 </div>
                 <div class="table">
@@ -205,7 +216,6 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- </div> -->
             </div>
             <!-- Order  -->
             <div class="section">
@@ -233,8 +243,8 @@
                                 <label for="time-end">Đến</label>
                                 <input type="date" class="form-control-date" id="time-end" onchange="findOrder()">
                             </div>
-                        </form>      
-                        <button class="btn-reset-order" onclick="cancelSearchOrder()"><i class="fa-light fa-arrow-rotate-right"></i></button>               
+                        </form>
+                        <button class="btn-reset-order" onclick="cancelSearchOrder()"><i class="fa-light fa-arrow-rotate-right"></i></button>
                     </div>
                 </div>
                 <div class="table">
@@ -284,10 +294,10 @@
                                 <label for="time-end">Đến</label>
                                 <input type="date" class="form-control-date" id="time-end-tk" onchange="thongKe()">
                             </div>
-                        </form> 
-                        <button class="btn-reset-order" onclick="thongKe(1)"><i class="fa-regular fa-arrow-up-short-wide"></i></i></button>
+                        </form>
+                        <button class="btn-reset-order" onclick="thongKe(1)"><i class="fa-regular fa-arrow-up-short-wide"></i></button>
                         <button class="btn-reset-order" onclick="thongKe(2)"><i class="fa-regular fa-arrow-down-wide-short"></i></button>
-                        <button class="btn-reset-order" onclick="thongKe(0)"><i class="fa-light fa-arrow-rotate-right"></i></button>                    
+                        <button class="btn-reset-order" onclick="thongKe(0)"><i class="fa-light fa-arrow-rotate-right"></i></button>
                     </div>
                 </div>
                 <div class="order-statistical" id="order-statistical">
@@ -392,7 +402,6 @@
                     </div>
                 </form>
             </div>
-            </form>
         </div>
     </div>
     <div class="modal detail-order">
@@ -401,9 +410,8 @@
             <button class="modal-close"><i class="fa-regular fa-xmark"></i></button>
             <div class="modal-detail-order">
             </div>
-            <div class="modal-detail-bottom">               
+            <div class="modal-detail-bottom">
             </div>
-            </form>
         </div>
     </div>
     <div class="modal detail-order-product">
@@ -423,7 +431,6 @@
                     </tbody>
                 </table>
             </div>
-            </form>
         </div>
     </div>
     <div class="modal signup">
@@ -447,7 +454,7 @@
                         <label for="password" class="form-label">Mật khẩu</label>
                         <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
                         <span class="form-message-password form-message"></span>
-                    </div>   
+                    </div>
                     <div class="form-group edit-account-e">
                         <label for="" class="form-label">Trạng thái</label>
                         <input type="checkbox" id="user-status" class="switch-input">
@@ -458,7 +465,6 @@
                 </form>
             </div>
         </div>
-    </div>
     </div>
     <div id="toast"></div>
     <script src="./js/admin.js"></script>

@@ -1,3 +1,14 @@
+<?php
+//include 'connect.php';
+
+//$sql = "SELECT * FROM monan";
+//$result = $conn->query($sql);
+
+//while ($row = $result->fetch_assoc()) {
+//    echo "Tên món: " . $row['ten_monan'] . " - Giá: " . $row['gia'] . "<br>";
+//}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -130,10 +141,6 @@
         <div class="container" id="trangchu">
             <div class="home-slider">
                 <img src="./assets/img/banner-1.png" alt="">
-                <!-- <img src="./assets/img/banner-2.png" alt="">
-                <img src="./assets/img/banner-3.png" alt="">
-                <img src="./assets/img/banner-4.png" alt="">
-                <img src="./assets/img/banner-5.png" alt=""> -->
             </div>
             <div class="home-service" id="home-service">
                 <div class="home-service-item">
@@ -587,33 +594,18 @@
                                 <label for="deliverytime">Giao vào giờ</label>
                                 <select class="choise-time">
                                     <option data-hours="08" value="08:00" selected="selected">08:00 - 09:00</option>
-
                                     <option data-hours="09" value="09:00">09:00 - 10:00</option>
-
                                     <option data-hours="10" value="10:00"> 10:00 - 11:00</option>
-
                                     <option data-hours="11" value="11:00"> 11:00 - 12:00</option>
-
                                     <option data-hours="12" value="12:00"> 12:00 - 13:00</option>
-
                                     <option data-hours="13" value="13:00"> 13:00 - 14:00</option>
-
                                     <option data-hours="14" value="14:00"> 14:00 - 15:00</option>
-
                                     <option data-hours="15" value="15:00"> 15:00 - 16:00</option>
-
                                     <option data-hours="16" value="16:00"> 16:00 - 17:00</option>
-
                                     <option data-hours="17" value="17:00"> 17:00 - 18:00</option>
-
                                     <option data-hours="18" value="18:00"> 18:00 - 19:00</option>
-
                                     <option data-hours="19" value="19:00"> 19:00 - 20:00</option>
-
                                     <option data-hours="20" value="20:00"> 20:00 - 21:00</option>
-
-                                    <option data-hours="21" value="21:00"> 21:00 - 22:00</option>
-
                                 </select>
                             </div>
                         </div>
@@ -641,21 +633,6 @@
                     <div class="checkout-col-content">
                         <div class="content-group">
                             <form action="" class="info-nhan-hang">
-                                <div class="form-group">
-                                    <input id="tennguoinhan" name="tennguoinhan" type="text"
-                                        placeholder="Tên người nhận" class="form-control">
-                                    <span class="form-message"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input id="sdtnhan" name="sdtnhan" type="text" placeholder="Số điện thoại nhận hàng"
-                                        class="form-control">
-                                    <span class="form-message"></span>
-                                </div>
-                                <div class="form-group">
-                                    <input id="diachinhan" name="diachinhan" type="text" placeholder="Địa chỉ nhận hàng"
-                                        class="form-control chk-ship">
-                                    <span class="form-message"></span>
-                                </div>
                             </form>
                         </div>
                     </div>
